@@ -115,14 +115,15 @@ int main(void)
   
   while (1)
   {
-	  printf("DANICA\n");
-	  printf("CHRISTA\n");
+    /* USER CODE END WHILE */
+     printf("saveetha engineering college\n");
+     printf("scoft\n");
      HAL_Delay(500);
   }
 }
 PUTCHAR_PROTOTYPE{
 	HAL_UART_Transmit(&huart2, (uint8_t*)&ch,1,0xFFFF);
-	return ch;
+	return ch;
 }
 ```
 ## Output screen shots of Serial port utility   :
